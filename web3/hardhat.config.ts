@@ -8,10 +8,10 @@ const config: HardhatUserConfig = {
   solidity: {
     profiles: {
       default: {
-        version: "0.8.28",
+        version: "0.8.7",
       },
       production: {
-        version: "0.8.28",
+        version: "0.8.7",
         settings: {
           optimizer: {
             enabled: true,
@@ -33,8 +33,8 @@ const config: HardhatUserConfig = {
     sepolia: {
       type: "http",
       chainType: "l1",
-      url: configVariable("SEPOLIA_RPC_URL"),
-      accounts: [configVariable("SEPOLIA_PRIVATE_KEY")],
+      url: configVariable(""),
+      accounts: [configVariable("")],
     },
   },
 };

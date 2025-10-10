@@ -23,5 +23,9 @@
     "mocha": "^11.7.4",
     "typescript": "~5.8.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@chainlink/contracts": "^1.5.0",
+    "thirdweb": "^5.108.12"
+  }
 }
